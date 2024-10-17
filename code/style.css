@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #43464B;
+    font-family: Comic Sans MS;
+    background-image: url(../images/photo-1533478684236-61e1192879e8.webp);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+}
+.container
+{
+    width: 35%;
+    height: 60%;
+    background-image: url(../images/9-2-scroll-download-png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.btn
+{
+    border: 0;
+    outline: 0;
+    padding: 6px 12px 8px 12px;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.btn:hover
+{
+    background: rgb(113,98,87);
+    background: linear-gradient(90deg, rgba(113,98,87,1) 0%, rgba(186,166,151,1) 50%, rgba(250,223,202,1) 100%);            
+}
+#quote-display
+{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.writer-div
+{
+    width: 50%;
+}
+#quote
+{
+    font-weight: 400;
+    font-size: 25px;
+}
+#writer
+{
+    font-weight: 600;
+    font-size: 12px;
+    
+}
+.buttons
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.icons a
+{
+    font-size: 30px;
+    
+}
+.icons
+{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
